@@ -31,7 +31,7 @@ task deploy(type: Copy){
 android{
     namespace = "io.anuke.mindustry"
     buildToolsVersion = '34.0.0'
-    compileSdk = 34
+    compileSdk = 33
     sourceSets{
         main{
             manifest.srcFile 'AndroidManifest.xml'
